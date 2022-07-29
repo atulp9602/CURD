@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.form_div, .table_div{
+    background-color: hsl(175, 74%, 70%);
+    height: 520x;
+    width: 50%;
+    margin: 40px 40px;
+
+}
+.form_div #heading,.table_div #heading {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.form_div form{
+    
+    margin-top: 15px;
+}
+.form_div input{
+    height: 45px;
+    width: 90%;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    padding-left: 10px;
+    margin-left: 12px;
+}
+.form_div input:focus{
+    border: 2px solid rgb(76, 161, 226);
+    box-shadow: 2px 3px 10px white;
+}
+.form_div button{
+    width: 180px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 20px;
+    margin: 8px;
+    margin-left: 12px;
+    margin-top: 8px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+.form_div button:hover{
+    color: white;
+    background-color: rgb(40, 1, 168);
+}
+.form_div form #submitMsg{
+    color: green;
+    font-size: 22px;
+    margin: 5px;
+   }
+.form_div form .inputMsg{
+    color: red;
+    font-size: 18px;
+    margin-left: 17px;
+}
+.table_div table{
+    margin-top: 25px;
+    margin: 25px auto;
+    width: 90%;
+    height: auto;
+    border: 1.5px solid black;
+    background-color: white;
+   
+}
+.table_div table > td,th,tr{
+    padding: 5px;
+    text-align: center;
+}
+.table_div table button{
+    width: 60px;
+    height: 25px;
+    padding: none;
+    margin: 3px;
+    border: 2px solid black;
+}
+.table_div table button:hover{
+    opacity: 0.8;
+}
